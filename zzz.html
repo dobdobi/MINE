@@ -1,0 +1,159 @@
+<html>
+<head>
+	<title>호호히</title>
+	<meta charset="utf-8">
+	<meta property="og:url" content="https://www.dam.com">
+</head>
+<body bgcolor="ffffff">
+	태그의 종류<br>
+	복합태그 ex.&lt;title&gt;&lt;font&gt;<br>
+	속성을 갖는 태그 ex.charset, size, color<br>
+	단독태그 : 종료태그 필요 없음★ ex. &lt;br&gt;<p>
+	종료태그는 예를들어 &lt;title&gt;라는 태그를 쓴다고 했을 때, 입력할 것들 끝나고 마지막에 &lt;/title&gt; 이라고 / 슬래시를 그어주는 것이다. 안하면 망한다.<p>
+
+	복합태그 중에 &lt;pre&gt;라고 쓴 그대로 나타내주는 태그가 있는데<br>
+	&lt;title&gt; 이런식으로 태그 그대로 나타나게 하려면 &amp;lt; (&lt;), &amp;gt; (&gt;)로 기호를 만들어줘야한다...젼나 귀찮다.... <br>
+	심지어 저 &amp; 이 기호도 &amp;amp;를 써줘야 나타난다 존나 귀찮다 진짜...<br>
+	즉 나는 &lt;title&gt;이것과 &amp;lt; 이것을 쓰기 위해서<br>
+	&amp;lt;title&amp;gt; 이렇게랑 &amp;amp;lt;이렇게 좆가다를 했다.
+	<p>
+
+	이 외에 속성과 등등에 대한 설명...<br>
+	간단하게 한글을 지원해주는 태그로 설명.<br>
+	&lt;meta charset="utf-8"&gt; 요 태그가 한글을 지원해주는 태그이다<br>
+	&lt;&gt; 이걸 태그라고 부른다.<br>
+	그 안에 meta 이건 요소이다. 요소는 붉은색으로 보인다.<br>
+	charset은 속성이다. 쵸록색으로 보인다.<br>
+	"utf-8"은 변수태그이다. 노란색으로 보인다. 속성은 대소문자 구분 안해줘도 되는데 요놈은 구분해줘야한다...귀찮다..<br>
+	이게 subllime에서 어떻게 표시가 되냐며는 <br>
+	&lt;<font color="red">meta </font><font color="green">charset</font>=<font color="orange">"utf-8"</font>&gt; 이렇게 보인다.<br>
+	참고로 &amp;li; 이렇게 &amp;쓰고 태그써서 나타내는 특수 문자들은 보라색으로 보인다 <font color="purple">&amp;amp;&amp;li;</font> 이런식으로<br>
+	그리고 지금 이렇게 엔터치는 것도 &lt;<font color="red">br</font>&gt;라는 태그를 쓰는 거다.<br>
+	그냥 엔터치면 안먹힌다. 개까다롭다. 쉬벌것...<p>
+
+	속성은 하나의 태그에 여러개를 쓸 수 있다<br>
+	예를 들어 내가 저 글짜색 바꾼것도 &lt;<font color="red">font</font>&gt;라는 태그 안에 <font color="green">color</font>라는 속성을 넣어서 바꾼 것인데 사실 글자 크기도 바꿀 수 있따.<br>
+	하나의 태그를 써서 다 보여주어 보쟈<br>
+	<font size="6">&lt;</font><font size="5" color="red">font</font>&nbsp; <font color="green" size="5">color</font><font size="5">=</font><font size="5" color="orange">"orange"</font> <font size="5" color="green">&nbsp;size</font><font size="5">=</font><font size="5" color="orange">8</font><font size="6">&gt;</font><br>
+	이것을 잘 보며는 (사실 띄어쓰기 두 번 한 것인데) 태그명이랑 속성들끼리 띄어쓰기가 된 것이 보인다. 띄어쓰기를 꼭 해주어야한다.<br>
+	왜 해주어야 하면 그래야 구분할 수 있기 때문이다.<br>
+	변수태그에 ""를 해준것도 띄어쓰기 해야하는 변수태그를 제대로 묶어주기 때문이닷.<br>
+	참고로 띄어쓰기는 두 번 안된다. 한 번 밖에 인식 못하는것을 옆에다가 <font color="purple">&amp;nbsp;</font>라는 문자를 넣어죠야지 두번 띄어쓰기 된다. 까다롭지만 어ㅉ쩔 수 없따.<p>
+
+	태그를 두 번 쓸 때가 있따. 예를 들어 글쟈를 굵게 하고 싶으면 이것은 따로 태그를 해줘야된다. (fuck...)<br>
+	태그는 &lt;b&gt;(bold의 약자) 이다.
+	<font color="sky blue"><b>쟈잔</b></font>이런 글자를 만들고 싶다면<br>
+	&lt;<font color="red">font</font> <font color="green">color</font>=<font color="orange">"sky blue"</font>&gt;&lt;<font color="red">b</font>&gt;쟈쟌&lt;/b&gt;&lt;/font&gt;이런식으로 해야한다.<br>
+	즉 먼저 쓴 태그는 닫을 때 젤로 마지막에 닫아죠야 한다<br>
+	※태그를 쓴 순서를 반대로 닫아준다고 생각하면 라쿠데슈~~
+	<hr>
+	속성과 변수태그 대해서 알아보자. 얘네은 외워야한다. 스펠링도 외워야한다.<br>
+	스펠링을 틀리면 부분점수도 안나오기 때무니다...쉬바...<br>
+	<p>
+	우선 글꼴관련된 속성이다. 태그는 &lt;font&gt;이당<br>3개밖에 없따. 크기, 색상, 폰트.<br>
+	크기의 변수태그는 숫쟈다. 1~8까지인데 기본설정은 4이다.<br>
+	그래서 이과 느낌을 내고 싶다면 글짜크기 3을 "-1"이런식으로 표시해도 된다. 하지만 재수없으니까 난 숫쟈를 쓸꺼야.<br>
+	<font size="2">뿌ㅃ뿌ㅃ</font>(&lt;font size=2&gt;)
+	<p>
+	색상은 기본 감쟝인데 맨 처음에 &lt;body&gt;태그 슬 때 속성으로 기본 색을 설졍할 수 있따. 이 때는 body태그에 text 속성을 쓴다.<br>
+	하지만 부분적으로 바꾸고 싶다면 font 태그에 color 속성을 쓰면 된다.<br>
+	<font color="sky blue">뿌ㅃ뿌ㅃ</font>(&lt;font color="sky blue"&gt;)
+	<p>
+
+	폰트의 속성은 face다. 글쟈의 모습-얼굴이니까 face이다.<br>
+	얘는 아무거나 폰트 이름 갖고와서 쓰면 된다.<br>
+	<font face="궁서체">뿌ㅃ뿌ㅃ</font>(&lt;font face="궁서체"&gt;)<p>
+
+	글자에 효과를 주는 태그이다. 이거슨 존나 많타. 쨔증난다.<br>
+	참고로 얘는 단독태그가 아니라서 닫아죠야 한다. 왜냐하면 그 뒤에도 다 적용이 될 수 있으니까...<br>
+	<pre>
+	&lt;b&gt; <b>(bold - 굵게 효과)</b>
+	&lt;i&gt; <i>(이탈릭체 - 기울기 효과)</i>
+	&lt;u&gt; <u>(under- 밑줄)</u>
+	&lt;s&gt; <s>(strike - 단어 뜻은 치다... 어이어이...취소하기)</s>
+	&lt;big&gt; <big>(big - 크게)</big>
+	&lt;samll&gt; <small>(small - 쟉게)</small>
+	&lt;sub&gt; (sub이라는 단어는<sub>under - ~의 아래에</sub> 라는 뜻이 있따 한다)
+	&lt;sup&gt; (supremum이라는 단어는 <sup>수학 단어로 '상한'</sup>이라는 뜻이 이따 한다...쉬바)
+</pre>
+<p>
+	내가 계속 줄을 바꾸는데 쓰는 단독태그는 &lt;br&gt;랑 &lt;p&gt;두개<br>
+	&lt;br&gt;는 한 줄씩 바꾼다며는 &lt;p&gt;는 두 줄씩 바꿀 수 이따!!!<br>
+	하지만 이 &lt;p&gt;는 문단정렬을 바까주는 태그로도 쓸 수 있찌. 이때는 단독태그가 아니닷<br>
+	<p align="center">
+	중요한 점은 문단정렬을 바까줄때는 꼭 "align"속성이 필요하닷<br> <font color="sky blue">align</font>의 뜻은 "나란히 만들다"</p>
+	<p align=right>align의 변수태그는 left, right, center이렇게 이따. 기본 왼쪽 정렬이다.</p>
+	<p align=center>이 문단정렬을 해줄때는 자동으로 끝에 &lt;br&gt;효과가 들어간다</p>
+
+	<hr>
+	이번에는 바로 위에 보이는 것 처럼 수평선을 나타내는 태그이당.<br> 얘는 자동적으로 밑에 만들어진다. 그리고 &lt;br&gt;효과도 들어간다.<br>
+	이놈의 속성은 조금 만타. 그리고 좀 헷갈린다. 그러니 확실히 기억해야함★★★<p>
+
+	총 5개가 이따.<br>
+	굵기와 크기 조정, 색과 위치 그림자효과.<br>
+	굵기는 속성이름도 <font color="sky blue">size</font>다.
+	<hr size="4"><!--소스에 설명-->
+	이거슨 굵기 4의 수평선이다. 흰색이라서 잘 티가 안나지만 자동으로 그림자효과가 들어가서 잘 보면 보인닷.<p>
+
+	크기는 <font color="sky blue">width</font>라는 속성이다.영어 뜻은 '폭, 너비'라는 뜻이다.<br>
+	수평선의 길이를 픽셀 값(px)이나 비율 값(%)로 지정해준다.<br>
+	px(픽셀)은 고정 값이다. 변수태그를 쓸 때 숫자 뒤에 px안써줘도 된다.<br>
+	%(비율) 값은 브라우저의 크기 비율대로 바꿔준다. 뒤에 %써줘야한다.
+	<hr width="50">
+	<hr width="50%">
+	순서대로 width 50(px)과 50%를 준 수평선이다.<p>
+
+	색상은 글자와 마찬가지로 <font color="sky blue">color</font>!
+	<hr color="sky blue"> <br>
+	<font color="sky blue"> align</font>는 &lt;p&gt;와 마찬가지다.<br>근데 중요한 것은 수평선은 기본이 가운데설정이다 ★★<p>
+
+	수평선에는 자동적으로 그림자가 들어가는데, 이걸 없애고 싶다면 속성 <font color="sky blue">noshade</font> (그림자 없음) 이라는 속성을 쓰면 된다.
+	<hr align=left size=10 noshade>
+	지금 알았지만 색깔 안입히고 noshade하면 선이 회색이 된다...시팔...
+	<hr align=left size=10 noshade color=white>
+	왜냐하면 흰색하면 티가 안나기 때문....사실 이거 위에 저 회색선과 같은 값에 흰색선을 만들었는데 티가 안난다 인생.<br>
+
+<hr color=#CEF279 size=5 noshade>
+
+<h1>아화앟어ㅏㅎ 아이 졸려<br></h1>
+	흠냐리<br>
+
+
+</body>
+
+<ul>흠 음냐<br>
+	오호호</ul>
+	뿌뿌
+
+<ol>음 호우호우<br>
+	뿌뿌</ol>
+
+<ul>이거슨 ul태그
+	<ul>난 지금&lt;br&gt;효과를 주지않고 오로지 ul태그만 더 입력해따
+		<ul>이거슨 세번째 ul태그이다</ul>
+	방금 종료태그를 하나 써따</ul>
+또써따</ul>
+흠
+<ol>이거슨 ol태그
+	<ul>난 지금&lt;br&gt;효과를 주지않고 오로지 ul태그만 더 입력해따
+		<p align="center"><ol>이거슨 두번째 ol태그이다</ol></p>
+	방금 종료태그를 하나 써따</ul>
+또써따</ol>
+희희
+<h4>ol태그랑 ul태그 들여쓰기할때 같이 써도 된ㄴ닷!!!</h4>
+<font color="sky blue"><p align="center">뿡냐	<p align="center">퓨퓹</p></p> 	ㅡ</font>
+<li>음
+
+<ol start=3>
+	<li>음
+	<p align=center><li>뿡</li></p>
+	</ol>
+
+	<dl>
+		<dt>뿡</dt>
+		뺭
+		<dd>빵빵<dd>흥냐</dd></dd>
+	</dl>
+
+	<ul>음<p align=center>뿡뿡</p></ul>
+&trade;
